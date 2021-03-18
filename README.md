@@ -1,72 +1,23 @@
-# Workflow Booster
+# Contact Page Design Project
 
-## :balloon: Overview
+## :clipboard: Overview
 
-Will help to build any JavaScript oriented project with the support of SASS/CSS fast. Also, since I have omitted the package.json file, it means that your initial build will always contain all the latest dependancied at the time of clone. Also, I hate receiving dependency errors or npm updates. So, I have completely omitted the package.json file.
+This project is built to test my skills in HTML, CSS, SASS, and Vanilla JavaScript. It will implement the use of CSS page layout tactics. That means the layout will be built using either flexbox, CSS grid, and a custom grid layout.
 
-## :mega: Features
+Since it is a contact page, the form is validated using JavaScript. However, it is not connected to a server. Instead, when the user submits the data and passes the validation, the thank you page will popup with the information the user has populated on the contact page.
 
-Here are the reasons you will love this boilerplate:
+## :hammer: The design of the contact page
 
-- **[Webpack](https://webpack.js.org/)** - Modern bundling & build process
-- **[SASS/SCSS](https://sass-lang.com/)** - The famous CSS on steroids
-- **[Autoprefixing](https://autoprefixer.github.io/)** - Automatically adds vendors prefixes to your CSS
-- **[Babel Support](https://babeljs.io/)** - Write JS using ES2015+ and webpack will make it work across all browsers. Support of **[class properties](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties)** is enabled too.
-- **Minify** - Automatically minifies JS and CSS during production mode
-- **DevServer** - Use both ndefault dev server **[`webpack-dev-server`](https://webpack.js.org/configuration/dev-server/)** and pretty output on the console using **[`webpack-dashboard`](https://www.npmjs.com/package/webpack-dashboard)**
-- **No need to update the dependencies** - Just follow the quick start quide and you'll be fine.
-- **Use any styling you want** - You can use both CSS or SASS to limitation.
-- **Separate your vendors from your code** - you don't like mixing your code with 3rd party's? Then this is your solution.
-- **Remove Unused Styles** - Purify CSS/SCSS output using [`purgecss-webpack-plugin`]("https://purgecss.com/plugins/webpack.html#installation") for your final build.
+The contact page design is created using Adobe Photoshop. Below is the image of the final product.
 
-## :anger: Requirement
+![Contact Us](https://user-images.githubusercontent.com/19428492/111670136-8f595d80-8828-11eb-87c6-f90c35b61b52.jpg)
 
-- Nodejs
+## :ferris_wheel: Testing the project
 
-## :scroll: QuickStart
+If you want to test this project on your local machine, just clone it or fork it to play with it.
 
-1. Clone this repo. Rename it to whichever project name you want.
-2. `cd <project name>`
-3. Run `npm install`
-4. Open the package.json and replace the test script with the following scripts in the scripts section
+See my **[Webpack workflow documentation]<https://github.com/Marknjo/webpack-workflows>)** to understand how to navigate around the boilerplate.
 
-   - `"start": "webpack-dev-server --mode development","smart:start": "webpack-dashboard -m webpack-dev-server --mode development","dev": "cross-env NODE_ENV=development webpack --mode development","build": "cross-env NODE_ENV=production webpack --mode production"`
-
-5. **YOU ARE READY TO GO**
-
-## :volcano: Modes
-
-- `npm start` - start development mode with dev-server
-- `npm run smart:start` - start development with dev-server and dashboard enabled on your console.
-- `npm run dev` - start development mode without dev-server
-- `npm run build` - start production mode
-
-## :orange_book: Folder Structure
-
-    ├── Public/                          # Distribution files
-    ├── src/                             # Source files
-    │   ├── assets/                      # Assets directory
-    │   │   ├── images/                  # Image directory
-    │   |   └── fonts/                   # Fonts directory
-    │   ├── styles/                      # SCSS files
-    |   │   └── dirs/                    # SCSS directories (Group yours you own way)
-    │   ├── scrips/                      # JS files
-    |   │   ├── app/                     # Scripts related to your app
-    │   |   └── vendors/                 # 3rd Party Scripts index (Vendors)
-    │   |       └── 3rd-party-scrips/    # All Vendors
-    │   ├── index.js                     # Load SCSS and JS
-    │   └── index.html                   # The default template for the website
-    ├── webpack/                         # Webpack configuration files
-    │   ├── webpack.common.js            # Common config used both in development and production mode
-    │   ├── webpack.dev.js               # Development mode config
-    │   └── webpack.prod.js              # Production mode config
-    ├── .babelrc                         # Babel config file
-    ├── .gitignore                       # Git ignored files
-    ├── LICENSE                          # License agreements
-    ├── postcss.config.js                # Post CSS configuration file. (Adds autoprefixing support)
-    ├── README.md                        # You are reading this
-    └── webpack.config.js                # Webpack main config file
-
-## License
+## :page_with_curl: License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
